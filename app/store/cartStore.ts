@@ -11,8 +11,6 @@ class CartStore {
   }
 
   increaseProductQuantity(id: string) {
-    let updatedProductsData = this.productsData
-
     const product = this.products[id]
 
     if (product) {
